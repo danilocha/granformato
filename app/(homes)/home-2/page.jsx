@@ -1,9 +1,8 @@
-import Header2 from "@/components/headers/Header2";
 import SearchPopup from "@/components/headers/component/SearchPopup";
 import Blogs from "@/components/homes/home-2/Blogs";
 import Awards from "@/components/homes/common/Awards";
 import Features from "@/components/homes/home-2/Features";
-import Hero from "@/components/homes/home-2/Hero";
+import Hero from "@/components/homes/home-8/Hero";
 
 import Portfolio from "@/components/homes/home-2/Portfolio";
 import Skills from "@/components/homes/common/Skills";
@@ -13,6 +12,7 @@ import Clients from "@/components/homes/home-2/Clients";
 import Cta from "@/components/homes/home-2/Cta";
 import Footer2 from "@/components/footers/Footer2";
 import MarqueeComponent from "@/components/common/Marquee";
+import Header7 from "@/components/headers/Header7";
 export const metadata = {
   title: "Home 2 || Frisk - Creative Agency & Portfolio Nextjs Template",
 };
@@ -20,7 +20,7 @@ export default function HomePage2() {
   return (
     <>
       <SearchPopup />
-      <Header2 />
+      <Header7 />
       <Hero />
       <MarqueeComponent />
       <Features />
