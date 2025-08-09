@@ -18,7 +18,7 @@ export default function Skills() {
         <Image
           width={838}
           height={788}
-          src="/assets/img/normal/service_2-1.jpg"
+          src="/assets/img/normal/service_2-1.png"
           alt="img"
         />
       </div>
@@ -28,12 +28,10 @@ export default function Skills() {
             <div className="about-content-wrap">
               <div className="title-area mb-0">
                 <h2 className="sec-title">
-                  We Offer a Wide Range of Brand Services
+                  Ofrecemos una Amplia Gama de Servicios de Impresión y Diseño
                 </h2>
                 <p className="sec-text mt-35 mb-40">
-                  We are a creative agency working with brands building
-                  insightful strategy, creating unique designs and crafting
-                  value
+                  En Gran Formato combinamos creatividad, tecnología y experiencia para ofrecer soluciones gráficas de alto impacto, desde impresión digital hasta cortes láser de precisión.
                 </p>
                 {skillsData.map((skill) => (
                   <div key={skill.id} className="skill-feature">

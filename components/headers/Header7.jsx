@@ -68,8 +68,8 @@ export default function Header7() {
           <div className="mobile-logo">
             <Link scroll={false} href="/">
               <Image
-                width={86}
-                height={24}
+                width={200}
+                height={60}
                 src="/assets/img/logo.svg"
                 alt="Ovation"
               />
@@ -106,9 +106,9 @@ export default function Header7() {
                   <div className="header-logo">
                     <Link scroll={false} href="/">
                       <Image
-                        width={86}
-                        height={24}
-                        src="/assets/img/logo-white-sm.svg"
+                        width={400}
+                        height={120}
+                        src="/assets/img/logo-white.png"
                         alt="logo"
                       />
                     </Link>
@@ -117,39 +117,16 @@ export default function Header7() {
                 <div className="col-auto">
                   <div className="header-button">
                     <a
-                      className="btn link-btn2 d-none d-lg-inline-flex"
-                      href="/assets/cv.pdf"
-                      download
+                      className="btn link-btn2"
+                      href="https://wa.me/573213235512"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      <Image
-                        width={24}
-                        height={24}
-                        src="/assets/img/icon/download.svg"
-                        alt="img"
-                      />
                       <span className="link-effect">
-                        <span className="effect-1">DOWNLOAD MY CV</span>
-                        <span className="effect-1">DOWNLOAD MY CV</span>
+                        <span className="effect-1">COTIZAR POR WHATSAPP</span>
+                        <span className="effect-1">COTIZAR POR WHATSAPP</span>
                       </span>
                     </a>
-                    <button
-                      type="button"
-                      className="sidebar-btn menu-toggle2 d-none d-lg-block"
-                      onClick={() => setDarkMenuOpen(true)}
-                    >
-                      <span className="line"></span>
-                      <span className="line"></span>
-                      <span className="line"></span>
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => setMobileMenuOpen(true)}
-                      className="menu-toggle sidebar-btn d-block d-lg-none"
-                    >
-                      <span className="line"></span>
-                      <span className="line"></span>
-                      <span className="line"></span>
-                    </button>
                   </div>
                 </div>
               </div>

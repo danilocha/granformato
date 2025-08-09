@@ -1,7 +1,7 @@
 import SearchPopup from "@/components/headers/component/SearchPopup";
 import Blogs from "@/components/homes/home-2/Blogs";
 import Awards from "@/components/homes/common/Awards";
-import Features from "@/components/homes/home-2/Features";
+import Features from "@/components/homes/home-4/Features";
 import Hero from "@/components/homes/home-8/Hero";
 
 import Portfolio from "@/components/homes/home-2/Portfolio";

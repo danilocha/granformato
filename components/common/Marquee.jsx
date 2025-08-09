@@ -6,25 +6,19 @@ export default function MarqueeComponent() {
     {
       id: 1,
       href: "#",
-      text: "We Give Unparalleled Flexibility",
+      text: "Impresión y diseño que transforman tus ideas",
       icon: "fas fa-star-of-life",
     },
     {
       id: 2,
       href: "#",
-      text: "We Give Unparalleled Flexibility",
+      text: "Creatividad a gran escala",
       icon: "fas fa-star-of-life",
     },
     {
       id: 3,
       href: "#",
-      text: "We Give Unparalleled Flexibility",
-      icon: "fas fa-star-of-life",
-    },
-    {
-      id: 4,
-      href: "#",
-      text: "We Give Unparalleled Flexibility",
+      text: "Diseñamos e imprimimos sin límites",
       icon: "fas fa-star-of-life",
     },
   ];

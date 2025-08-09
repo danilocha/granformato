@@ -115,7 +115,7 @@ export default function Header2() {
                       <Image
                         width={86}
                         height={24}
-                        src="/assets/img/logo-white-sm.svg"
+                        src="/assets/img/logo-white.png"
                         alt="logo"
                       />
                     </Link>

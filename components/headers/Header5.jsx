@@ -114,7 +114,7 @@ export default function Header5() {
                       <Image
                         width={86}
                         height={24}
-                        src="/assets/img/logo-white-sm.svg"
+                        src="/assets/img/logo-white.png"
                         alt="logo"
                       />
                     </Link>
