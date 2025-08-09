@@ -73,7 +73,10 @@ export const featureData = [
   },
 ];
 
-export const allFeatures = [
+export const featureData2 = featureData;
+export const featureData3 = featureData;
+export const featureData4 = featureData;
 
+export const allFeatures = [
   ...featureData,
 ];
