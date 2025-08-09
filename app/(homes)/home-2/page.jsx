@@ -14,7 +14,7 @@ import Footer2 from "@/components/footers/Footer2";
 import MarqueeComponent from "@/components/common/Marquee";
 import Header7 from "@/components/headers/Header7";
 export const metadata = {
-  title: "Home 2 || Frisk - Creative Agency & Portfolio Nextjs Template",
+  title: "Gran Formato",
 };
 export default function HomePage2() {
   return (
